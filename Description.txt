@@ -3,7 +3,8 @@ Even though the current method is GET, it still give me some clues on
 how it will be like using POST method. GET method is use to retrieve the data 
 from server. No changes to server or resource. Where POST method perform changes
 to server which is create resources in server. POST is not idempotent. 
-So, if you retry the request for N times, you will end up having N resources with N different URLs created on server. In according, to what I have found,
+So, if you retry the request for N times, you will end up having N resources
+with N different URLs created on server. In according, to what I have found,
 those who use web service with POST method also use database. 
 So, I think that I may need one as well.
 
