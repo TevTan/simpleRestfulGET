@@ -1,0 +1,8 @@
+# Turn on the rewrite engine
+Options +FollowSymlinks
+
+#enable mod_rewrite
+RewriteEngine on
+
+# Request routing
+RewriteRule ^([a-zA-Z_-]*)$	index.php?language=$1 [nc,qsa]
